@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Grade Calculator</h1>
+    <div class="input-group">
+        <input id="num1" type="number" placeholder="Math" required>
+    </div>
+    <div class="input-group">
+        <input id="num2" type="number" placeholder="Urdu" required>
+    </div>
+    <div class="input-group">
+        <input id="num3" type="number" placeholder="English" required>
+    </div>
+    <div class="input-group">
+        <input id="num4" type="number" placeholder="Sindhi" required>
+    </div>
+    <div class="input-group">
+        <input id="num5" type="number" placeholder="Science" required>
+    </div>
+    <button onclick="add()">Calculate</button>
+    <div class="result" id="totalMarks"></div>
+    <div class="result" id="per"></div>
+    <div class="result" id="grade"></div>
+</div>
+
+<script src="./app.js"></script>
+
+</body>
+</html>
